@@ -1,3 +1,19 @@
+Package: com.summers.ettu
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
+Depends: firmware (>= 6.0)
+Filename: debs/com.summers.ettu.deb
+Size: 14981574
+MD5sum: 00391ac16df27ed9f21b0b24352c0264
+SHA1: b59df3776260e960ba361120bdf671ebdc0c0c58
+SHA256: 670015a68f1bf62f26694d9a3774c1e37ce712dd736e3a421d4138585f09be0f
+Section: Apps
+Description: YouTube Music client for ios 6+
+Author: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
+Depiction: https://zoe-vb.github.io/depictions/com.summers.ettu/
+Name: Et Tu?
+
 Package: com.summers.retrofy
 Version: 0.0.2
 Architecture: iphoneos-arm
