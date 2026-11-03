@@ -1,9 +1,25 @@
+Package: com.summers.beeb
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
+Depends: firmware (>= 6.0)
+Filename: debs/com.summers.beeb_0.0.2_iphoneos-arm.deb
+Size: 1608674
+MD5sum: 612541f18d5af758540da050d6b4787e
+SHA1: 3dcdee3083ae3a92b78fcd62c93bd065d163f5cc
+SHA256: a2f29a12ca9c4cc0f55be5504c9a155cbd97f0598da11e448d1ffc6d8c5e2bbf
+Section: Apps
+Description: iPlayer for ios 6+
+Author: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
+Depiction: https://zoe-vb.github.io/depictions/com.summers.beeb/
+Name: beeb
+
 Package: com.summers.ettu
 Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
 Depends: firmware (>= 6.0)
-Filename: debs/com.summers.ettu.deb
+Filename: debs/com.summers.ettu_0.0.2_iphoneos-arm.deb
 Size: 14981574
 MD5sum: 00391ac16df27ed9f21b0b24352c0264
 SHA1: b59df3776260e960ba361120bdf671ebdc0c0c58
