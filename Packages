@@ -1,0 +1,16 @@
+Package: com.summers.retrofy
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
+Depends: firmware (>= 6.0)
+Filename: debs/com.summers.retrofy_0.0.2_iphoneos-arm.deb
+Size: 2098276
+MD5sum: c43d20b9d713ef763db48c0953abb00f
+SHA1: 80708dbcb98ebdc391dec0af27fc8853657ff0bd
+SHA256: 3573de687a7f0a25259d2942492e47dcd4e90d979d900d184aae029035751a7a
+Section: Apps
+Description: Spotify revival for iOS6+
+Author: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
+Depiction: https://zoe-vb.github.io/depictions/com.summers.retrofy/
+Name: Retrofy
+
