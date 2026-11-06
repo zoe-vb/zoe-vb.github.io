@@ -1,23 +1,273 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Summers Repo</title>
-<style>
-  body { margin: 0; padding: 24px 16px; background: #f0f0f4; font-family: Helvetica, Arial, sans-serif; color: #222; text-align: center; }
-  img { width: 64px; height: 64px; }
-  h1 { font-size: 24px; margin: 12px 0 4px; }
-  p { color: #6d6d72; margin: 4px 0 20px; }
-  .button { display: inline-block; padding: 12px 20px; border-radius: 8px; background: #84bd00; color: #fff; font-weight: bold; text-decoration: none; }
-  code { background: #fff; border: 1px solid #c8c8cc; border-radius: 4px; padding: 2px 6px; }
+
+<style type="text/css">
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #050805;
+    color: #00cc44;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 20px 12px;
+}
+
+a {
+    color: #00ff66;
+}
+
+.wrapper {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.topline {
+    color: #008833;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.topline span {
+    color: #00ff66;
+}
+
+.panel {
+    border: 1px solid #00772a;
+    background: #081008;
+}
+
+.panel-header {
+    background: #003d18;
+    color: #00ff66;
+    padding: 7px 12px;
+    border-bottom: 1px solid #00772a;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.panel-header .right {
+    float: right;
+    color: #00aa44;
+}
+
+.content {
+    padding: 24px 18px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 16px;
+    border: 1px solid #008833;
+    padding: 6px;
+    background: #000;
+}
+
+h1 {
+    color: #00ff66;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #008833;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #a0cbaa;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.divider {
+    color: #006622;
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 18px 0;
+}
+
+.button {
+    display: block;
+    background: #00bb44;
+    color: #001a08;
+    border: 1px solid #00ff66;
+    padding: 13px 8px;
+    font-size: 14px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.button:active {
+    background: #00ff66;
+    color: #000;
+}
+
+.manual {
+    margin-top: 24px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.prompt {
+    color: #00ff66;
+}
+
+.manual-title {
+    color: #00cc44;
+    margin-bottom: 8px;
+}
+
+.manual-text {
+    color: #829b86;
+    margin-bottom: 10px;
+}
+
+.url {
+    display: block;
+    background: #000;
+    border: 1px solid #005522;
+    color: #00ff66;
+    padding: 10px 8px;
+    font-size: 12px;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.path {
+    color: #778b7b;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.status {
+    border-top: 1px solid #00772a;
+    padding: 8px 12px;
+    background: #061006;
+    color: #008833;
+    font-size: 10px;
+}
+
+.status .online {
+    color: #00ff66;
+}
+
+.footer {
+    margin-top: 20px;
+    color: #006622;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.footer strong {
+    color: #009933;
+    font-weight: normal;
+}
+
 </style>
 </head>
+
 <body>
-  <img src="CydiaIcon.png" alt="">
-  <h1>Summers Repo</h1>
-  <p>Legacy revivals for old iOS</p>
-  <a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://zoe-vb.github.io/">Add to Cydia</a>
-  <p style="margin-top: 20px">Or add <code>https://zoe-vb.github.io/</code> under Cydia &rarr; Sources &rarr; Edit &rarr; Add.</p>
+
+<div class="wrapper">
+
+    <div class="topline">
+        <span>root@summers</span>:~# ./repo
+    </div>
+
+    <div class="panel">
+
+        <div class="panel-header">
+            [ SUMMERS_REPO ]
+            <span class="right">v1.0</span>
+        </div>
+
+        <div class="content">
+
+            <img class="logo"
+                 src="CydiaIcon.png"
+                 alt="Summers Repo">
+
+            <h1>SUMMERS</h1>
+
+            <div class="subtitle">
+                // REPOSITORY //
+            </div>
+
+            <div class="divider">
+                ================================
+            </div>
+
+            <div class="description">
+                &gt; Legacy software revival<br>
+                &gt; Built for classic iOS<br>
+                &gt; Keeping old hardware alive<span>_</span>
+            </div>
+
+            <a class="button"
+               href="cydia://url/https://cydia.saurik.com/api/share#?source=https://zoe-vb.github.io/">
+                [ + ADD TO CYDIA ]
+            </a>
+
+            <div class="manual">
+
+                <div class="manual-title">
+                    <span class="prompt">&gt;</span>
+                    MANUAL_INSTALL
+                </div>
+
+                <div class="manual-text">
+                    Add the following source URL:
+                </div>
+
+                <a class="url"
+                   href="https://zoe-vb.github.io/">
+                    https://zoe-vb.github.io/
+                </a>
+
+                <div class="path">
+                    Cydia &gt; Sources &gt; Edit &gt; Add
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="status">
+            SYSTEM STATUS:
+            <span class="online">[ ONLINE ]</span>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        &lt; EST. 2026 / SUMMERS REPO &gt;
+        <br>
+        <strong>THE OLD WEB NEVER DIES.</strong>
+    </div>
+
+</div>
+
 </body>
 </html>
