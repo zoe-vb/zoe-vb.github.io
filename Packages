@@ -69,10 +69,10 @@ Architecture: iphoneos-arm
 Maintainer: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
 Depends: firmware (>= 6.0)
 Filename: debs/com.summers.retrofy_0.0.4_iphoneos-arm.deb
-Size: 3940674
-MD5sum: 56836db905b97e4dfd2c112fbfdc148c
-SHA1: bb5841d6e6915cf155ae619dd977211deaadef1e
-SHA256: 96cfc6509b048ecd259df283a9aed59db9eeec19af315b8652d890cd6e2055b9
+Size: 3944010
+MD5sum: 5607a82b309c53b33a156615128d7b22
+SHA1: f89e2cc681129ff29b90f65a0acb6d81caf505f3
+SHA256: d5c4a230a67cb742d12a19517a29c7f8b84e2c8ac90c483a28aa3730a4142891
 Section: Apps
 Description: iOS 6 Client for Spotify
 Author: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
