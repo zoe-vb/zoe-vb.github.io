@@ -131,23 +131,6 @@ Depiction: https://zoe-vb.github.io/depictions/com.summers.retrofy/
 Icon: https://zoe-vb.github.io/icons/retrofy.png
 Name: Retrofy
 
-Package: com.summers.retrofy
-Version: 2.7.1
-Architecture: iphoneos-arm
-Maintainer: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
-Depends: firmware (>= 6.0)
-Filename: debs/com.summers.retrofy_2.7.1_iphoneos-arm.deb
-Size: 14877326
-MD5sum: b8034f0eecaccac9cea0be19f89b3a68
-SHA1: e96338f1e4fdedccc474a4a0d99c40c24a05a038
-SHA256: 2e2036d157486c657818601273e84e0e4c0890df5dc0e84b3d8b28f701447115
-Section: Apps
-Description: iOS 6 Client for Spotify
-Author: Zoe Summers <zoe.summers@students.plymouth.ac.uk>
-Depiction: https://zoe-vb.github.io/depictions/com.summers.retrofy/
-Icon: https://zoe-vb.github.io/icons/retrofy.png
-Name: Retrofy
-
 Package: com.summers.retrofy4
 Version: 0.0.3
 Architecture: iphoneos-arm
